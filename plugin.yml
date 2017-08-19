@@ -1,0 +1,21 @@
+name: CrazyWorld
+main: BlueWhale\CrazyWorld\CrazyWorld
+version: 1.2.2
+api:
+- 1.0.0
+- 1.12.0
+- 2.0.0
+- 2.1.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA7
+author: Whale(China)
+load: POSTWORLD
+description: "CrazyWorld is a fork of WMultiWorld made by Whale. It is new and stable"
+website: http://github.com/BlueWhaleNetwork/CrazyWorld/
+
+permissions:
+  cw.command.true:
+    default: true
+  cw.command.op:
+    default: op

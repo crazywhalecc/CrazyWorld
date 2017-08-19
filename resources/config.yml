@@ -1,0 +1,31 @@
+---
+#This setting is managing the version of the config, do not change
+Config-Version: 1
+#Set your language, this is the list:
+#eng: English
+#ch:中文简体
+#cho:中文繁體
+#de:Deutsch
+#jp:日本語
+#fr:Français
+#kr:한국어 
+language: eng
+#This is admin list. This admin is unique and works without op?
+admin: []
+#You don't need to manage it(item-touch)
+item-touch:
+- 259
+- 325
+- 351
+- 291
+- 292
+- 293
+- 294
+#This is the protecting world list
+protect-world: []
+#Ban PvP world list
+banpvp-world:
+- world
+#If you allow op can pvp in the banpvp-world, change to true
+allow-op-pvp: false
+...
